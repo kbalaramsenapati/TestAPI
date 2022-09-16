@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7192321729406130737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7192321729406130751}
+  - component: {fileID: 7192321729406130736}
+  m_Layer: 0
+  m_Name: APIController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7192321729406130751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192321729406130737}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7192321729406130736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192321729406130737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdb8b243fd04211458a7a55f3fd4ceaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  string_baseURL: https://test.iamdave.ai/conversation/exhibit_aldo/74710c52-42a5-3e65-b1f0-2dc39ebe42c
+  class_bodydata:
+    system_response: sr_init
+    engagement_id: NzQ3MTBjNTItNDJhNS0zZTY1LWIxZjAtMmRjMzllYmU0MmMyZXhoaWJpdF9hbGRv
+    customer_state: 
+  string_SendjsonData: 
+  class_recivedDatas:
+    hide_in_customer_history: 0
+    registered_entities: 
+    whiteboard_template: 
+    customer_state: 
+    show_feedback: 
+    to_state_function:
+      function: 
+    placeholder: 
+    show_in_history: 0
+    data:
+      slideshow: []
+    overwrite_whiteboard: 0
+    start_timestamp: 
+    console: 
+    name: 
+    title: 
+    response_channels:
+      voice: 
+      frames: 
+      shapes: 
+    whiteboard: 
+    state_options:
+      cs_top_three: 
+      cs_must_have: 
+      cs_enquiry: 
+      cs_mt1: 
+      cs_mt2: 
+      cs_mt3: 
+    response_id: 
+    whiteboard_title: 
+    timestamp: 
+    maintain_whiteboard: 
+    wait: 
+    type: 
+    options: 
+    engagement_id: 
